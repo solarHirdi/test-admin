@@ -1,0 +1,11 @@
+{
+  "Car": {
+    "title": "string",
+    "createdAt": "date",
+    "parts": "Part[]"
+  },
+  "Part": {
+    "title": "string",
+    "car": "Car"
+  }
+}
